@@ -1,0 +1,247 @@
+{
+    "data": [
+        {
+            "active": true,
+            "address": [
+                {
+                    "city": "Mumbai",
+                    "country": "IN",
+                    "line": [
+                        "49 Lotus St"
+                    ],
+                    "postalCode": "400001",
+                    "state": "MH"
+                }
+            ],
+            "assignedNurse": "Priya",
+            "age": 34,
+            "contact": "+91 91919191919",
+            "familyContact": "+91 9292929292929",
+            "gender": "female",
+            "id": "example1",
+            "medication": [
+                {
+                    "name": "xyz medicine",
+                    "remarks": "take with water",
+                    "time": [
+                        "05:00",
+                        "22:00"
+                    ]
+                },
+                {
+                    "name": "xyz2",
+                    "remarks": "",
+                    "time": [
+                        "20:00"
+                    ]
+                }
+            ],
+            "name": {
+                "first": "Anjali",
+                "last": "Patel"
+            },
+            "resourceType": "Patient",
+            "wardnum": 12
+        },
+        {
+            "active": true,
+            "address": [
+                {
+                    "city": "Delhi",
+                    "country": "IN",
+                    "line": [
+                        "123 Neem St"
+                    ],
+                    "postalCode": "110001",
+                    "state": "DL"
+                }
+            ],
+            "assignedNurse": "Aarav",
+            "age": 42,
+            "contact": "+91 9876543210",
+            "familyContact": "+91 9876543210",
+            "gender": "male",
+            "id": "example2",
+            "medication": [
+                {
+                    "name": "Painkiller",
+                    "remarks": "take after meals",
+                    "time": [
+                        "08:00",
+                        "14:00",
+                        "20:00"
+                    ]
+                }
+            ],
+            "name": {
+                "first": "Aarav",
+                "last": "Sharma"
+            },
+            "resourceType": "Patient",
+            "wardnum": 24
+        },
+        {
+            "active": true,
+            "address": [
+                {
+                    "city": "Bangalore",
+                    "country": "IN",
+                    "line": [
+                        "456 Mango St"
+                    ],
+                    "postalCode": "560001",
+                    "state": "KA"
+                }
+            ],
+            "assignedNurse": "Arjun",
+            "age": 30,
+            "contact": "+1 1234567890",
+            "familyContact": "+1 0987654321",
+            "gender": "male",
+            "id": "example3",
+            "medication": [
+                {
+                    "name": "Antibiotic",
+                    "remarks": "take with food",
+                    "time": [
+                        "09:00",
+                        "18:00"
+                    ]
+                },
+                {
+                    "name": "Vitamin C",
+                    "remarks": "take before bedtime",
+                    "time": [
+                        "22:00"
+                    ]
+                }
+            ],
+            "name": {
+                "first": "Amit",
+                "last": "Desai"
+            },
+            "resourceType": "Patient",
+            "wardnum": 7
+        },
+        {
+            "active": true,
+            "address": [
+                {
+                    "city": "Kolkata",
+                    "country": "IN",
+                    "line": [
+                        "789 Peepal St"
+                    ],
+                    "postalCode": "700001",
+                    "state": "WB"
+                }
+            ],
+            "assignedNurse": "Priya",
+            "age": 52,
+            "contact": "+1 5551234567",
+            "familyContact": "+1 5559876543",
+            "gender": "female",
+            "id": "example4",
+            "medication": [
+                {
+                    "name": "Insulin",
+                    "remarks": "inject before meals",
+                    "time": [
+                        "07:00",
+                        "12:00",
+                        "19:00"
+                    ]
+                },
+                {
+                    "name": "Blood Pressure Medication",
+                    "remarks": "take after meals",
+                    "time": [
+                        "08:00",
+                        "20:00"
+                    ]
+                }
+            ],
+            "name": {
+                "first": "Divya",
+                "last": "Patel"
+            },
+            "resourceType": "Patient",
+            "wardnum": 35
+        },
+        {
+            "active": true,
+            "address": [
+                {
+                    "city": "Chennai",
+                    "country": "IN",
+                    "line": [
+                        "101 Ashoka St"
+                    ],
+                    "postalCode": "600001",
+                    "state": "TN"
+                }
+            ],
+            "assignedNurse": "Maya",
+            "age": 25,
+            "contact": "+1 7778889999",
+            "familyContact": "+1 9998887777",
+            "gender": "female",
+            "id": "example5",
+            "medication": [
+                {
+                    "name": "Antidepressant",
+                    "remarks": "take in the morning",
+                    "time": [
+                        "08:00"
+                    ]
+                },
+                {
+                    "name": "Sleeping Pill",
+                    "remarks": "take before bedtime",
+                    "time": [
+                        "22:00"
+                    ]
+                }
+            ],
+            "name": {
+                "first": "Isha",
+                "last": "Shah"
+            },
+            "resourceType": "Patient",
+            "wardnum": 42
+        },
+        {
+            "active": true,
+            "address": [
+                {
+                    "city": "Hyderabad",
+                    "country": "IN",
+                    "line": [
+                        "246 Tulsi St"
+                    ],
+                    "postalCode": "500001",
+                    "state": "TG"
+                }
+            ],
+            "assignedNurse": "Rahul",
+            "age": 41,
+            "contact": "+1 3334445555",
+            "familyContact": "+1 5554443333",
+            "gender": "male",
+            "id": "example6",
+            "medication": [
+                {
+                    "name": "Allergy Medication",
+                    "remarks": "take as needed",
+                    "time": []
+                }
+            ],
+            "name": {
+                "first": "Kabir",
+                "last": "Patel"
+            },
+            "resourceType": "Patient",
+            "wardnum": 11
+        }
+    ]
+}

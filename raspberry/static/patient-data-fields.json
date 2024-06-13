@@ -1,0 +1,42 @@
+{
+    "active": true,
+    "address": [
+        {
+            "city": "Mounds",
+            "country": "US",
+            "line": [
+                "49 Meadow St"
+            ],
+            "postalCode": "74047",
+            "state": "OK"
+        }
+    ],
+    "assignedNurse": "Samantha",
+    "birthDate": "2007-02-20",
+    "contact": "+91 91919191919",
+    "familyContact": "+91 9292929292929",
+    "gender": "female",
+    "id": "example",
+    "medication": [
+        {
+            "name": "xyz medicine",
+            "remarks": "take with water",
+            "time": [
+                "05:00",
+                "22:00"
+            ]
+        },
+        {
+            "name": "xyz2",
+            "remarks": "",
+            "time": [
+                "20:00"
+            ]
+        }
+    ],
+    "name": {
+        "first": "john",
+        "last": "doe"
+    },
+    "resourceType": "Patient"
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>SHRA - Smart Hospital Room Assistant</title>
+    <link rel="shortcut icon" href="../static/logo.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar">
+        <img src="../static/logo.svg" onclick="window.location.href='/'" alt="">
+        <a href="/patientinfo">Patient Info</a>
+    </div>
+   <div class="heading-space">
+        <div>
+            <p class="headingtitle">Patients Information</p>
+            <p class="section-desc">Track all your patients here at one place</p>
+        </div>
+        <button class="newpatient" onclick="window.alert('Add the JSON Object in static/sos-data.json file')">+ Add New Patient</button>
+   </div>
+   <div>
+    {%for i in data%} 
+    <div class="individual-data">
+        <img src="static/{{i['gender']}}.png" alt="" height="100rem">
+        <div class="left">
+            <div class="row"><p class="key">Name: </p><p class="value">{{i['name']['first']}}</p></div>
+            <div class="row"><p class="key">Age: </p><p class="value">{{i['age']}}</p></div>
+            <div class="row"><p class="key">Gender: </p><p class="value">{{i['gender']}}</p></div>
+            <div class="row"><p class="key">Ward Number: </p><p class="value">{{i['wardnum']}}</p></div>
+        </div>
+        <div class="left">
+            <div class="row"><p class="key">Address: </p><p class="value">{{i['address'][0]['city']}}</p></div>
+            <div class="row"><p class="key">Assigned Nurse: </p><p class="value">{{i['assignedNurse']}}</p></div>
+            <div class="row"><p class="key">Contact: </p><p class="value">{{i['contact']}}</p></div>
+            <div class="row"><p class="key">Active: </p><p class="value">{{i['active']}}</p></div>
+        </div>
+    </div>
+    {%endfor%} 
+   </div>
+</body>
+</html>
